@@ -1,7 +1,6 @@
 import json
 
 def handle(data):
-
     data = json.loads(data)
     products = data["products"]
     prices = data["prices"]
